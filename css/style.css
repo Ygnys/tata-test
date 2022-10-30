@@ -59,30 +59,45 @@ ul {
 .cards {
   display: flex;
   justify-content: space-around;
+
 }
 @media screen and (max-width: 991px){
 
   .container {
-    width: 900px;
+    width: 70%;
     margin: 0 auto;
   padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
   }
+  .container-first {
+    width: 70%;
+    margin: 0 auto;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  }
+
+.slogan {
+  font-size: 1rem;
+  text-shadow: 2px 2px black;
+  color: white
+  text-shadow: 2px 2px 4px rgb(0 0 0 / 30%);
+
 
 
 }
-@media screen and (max-width: 770px) {
-  .container {
-    width: 600px;
-    margin: 0 auto;
-  padding-bottom: 1em;
-  }
+
+.banner {
+
+  height: 20vh;
+
+
 
 }
-@media screen and (max-width: 500px) {
- .container {
-  width: 400px;
-  margin: 0 auto;
-  padding-bottom: 1em;
- }
+
+
+
+
 }
 

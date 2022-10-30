@@ -4,9 +4,7 @@
   color: white;
   padding: 120px;
   object-fit: cover;
-  position: absolute;
-  left: 0;
-  right: 0;
+  height: 40vh;
   background-position: bottom 0px left;
   background-repeat: no-repeat;
   background-position: 50% 50%
@@ -24,24 +22,4 @@
 
 }
 
-@media screen and (max-width: 991px){
 
-  .banner {
-    object-fit:cover;
-    padding:60px;
-  }
-
-
-}
-@media screen and (max-width: 770px) {
-  .container {
-
-
-}
-@media screen and (max-width: 500px) {
- .container {
-  width: 900px;
-  margin: 0 auto;
-  padding-bottom: 1em;
- }
-}
