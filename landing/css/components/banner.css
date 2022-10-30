@@ -1,0 +1,24 @@
+.banner {
+  background-image: url("../../images/backround.png");
+
+  color: white;
+  padding: 120px;
+  object-fit: cover;
+  background-position: bottom 0px left;
+  background-repeat: no-repeat;
+  background-position: 50% 50%
+
+
+}
+
+.slogan {
+  font-size: 2rem;
+  text-shadow: 2px 2px black;
+  color: white
+  text-shadow: 2px 2px 4px rgb(0 0 0 / 30%);
+
+
+
+
+
+}
