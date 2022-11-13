@@ -13,6 +13,8 @@
 @import url('components/footer.css');
 @import url('components/gallery.css');
 
+
+
 body {
   margin: 0;
   font-family: Open Sans;
@@ -61,43 +63,197 @@ ul {
   justify-content: space-around;
 
 }
-@media screen and (max-width: 991px){
+
+@media (min-width: 300px) and (max-width: 600px){
 
   .container {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
-  padding-bottom: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-bottom: .5em;
+  padding-left: .5em;
+  padding-right: .5em;
+  font-size: .8em;
   }
   .container-first {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
-  padding-bottom: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
+    padding-top: .5em
+  padding-bottom: .5em;
+  padding-left: .5em;
+  padding-right: .5em;
+  font-size: .8em;
   }
 
+
+
 .slogan {
-  font-size: 1rem;
+  font-size: 1em;
   text-shadow: 2px 2px black;
   color: white
   text-shadow: 2px 2px 4px rgb(0 0 0 / 30%);
-
-
+  padding-bottom: 10px;
 
 }
 
+h1 {
+  font-size: 2em;
+}
+
+h2{
+  font-size: 1.2em;
+  padding-bottom: 1em;
+}
 .banner {
 
   height: 20vh;
+  padding: 40px;
 
-
+}
+.gallery {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 300px;
 
 }
 
+.photo img{
+  width: 150px;
+}
 
+.cards {
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+padding: 6px 14px;
+  background-color: #1EDD88;
+  color: white;
+  border-radius: 12px;
+  display: inline-block;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
 
+.footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #DDE1E7;
+  height: 4em;
+  width: 100%;
+  font-size: .5em;
 
 }
+
+p  {
+  font-size: 1.1em;
+}
+
+ul {
+  font-size: 1.1em;
+}
+
+}
+
+@media (min-width: 600px) and (max-width: 1000px){
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  padding-bottom: .5em;
+  padding-left: .5em;
+  padding-right: .5em;
+  font-size: .8em;
+  }
+  .container-first {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: .5em
+  padding-bottom: .5em;
+  padding-left: .5em;
+  padding-right: .5em;
+  font-size: .8em;
+  }
+
+
+
+.slogan {
+  font-size: 1em;
+  text-shadow: 2px 2px black;
+  color: white
+  text-shadow: 2px 2px 4px rgb(0 0 0 / 30%);
+  padding-bottom: 10px;
+
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2{
+  font-size: 1.2em;
+  padding-bottom: 1em;
+}
+.banner {
+
+  height: 20vh;
+  padding: 40px;
+
+}
+.gallery {
+
+
+width: 300px;
+
+}
+
+.photo img{
+  width: 150px;
+}
+
+}
+.btn {
+padding: 8px 18px;
+  background-color: #1EDD88;
+  color: white;
+  border-radius: 24px;
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #DDE1E7;
+  height: 4em;
+  width: 100%;
+  font-size: .5em;
+
+}
+
+p  {
+  font-size: 1.1em;
+}
+ul {font-size: 1.1em;
+
+}
+
+}
+@media (min-width: 1000px) {
+  button.btn {
+     text-decoration: none;
+  padding: 8px 24px;
+  background-color: #1EDD88;
+  color: white;
+  border-radius: 24px;
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  }
+}
+
+
 

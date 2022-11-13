@@ -3,11 +3,14 @@
 
   color: white;
   padding: 120px;
-  object-fit: cover;
-  height: 40vh;
-  background-position: bottom 0px left;
+  background-size:cover;
+  height: 30vh;
+
   background-repeat: no-repeat;
-  background-position: 50% 50%
+  background-position: 50% 50%;
+
+
+
 
 
 }
